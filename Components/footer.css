@@ -1,0 +1,26 @@
+.content-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-gray-200);
+    justify-content: space-around;
+}
+.footer-list{
+    margin: 0.5rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    /* font-size: larger; */
+    list-style: none;
+}
+
+.footer-list li{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.footer-list li:hover{
+    color: var(--color-gray-100);
+}
+.footer-about{
+    list-style: none;
+}
