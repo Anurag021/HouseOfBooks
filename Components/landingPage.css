@@ -4,7 +4,6 @@
     height:25rem;
     background-repeat: no-repeat;
     margin-top: 2rem;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--color-gray-100);
@@ -34,7 +33,6 @@
     font-family: cursive;
     font-weight: bold;
     font-size: 2rem;
-    margin: 0;
 }
 .icons-header i{
     text-align: center;
@@ -48,7 +46,7 @@
     position: relative;
     background:var(--color-link);
     width: 5rem;
-    padding: 0.2rem;
+    padding: 4px;
     text-align: center;
     color:var(--color-gray-100);  
     right: 8rem;
@@ -57,7 +55,10 @@
     flex-wrap: wrap;
     margin-left: 0.5rem;
 }
-.product-listing h2{
-    margin: 0;
+.category-heading{
     margin-top: 2rem;
+}
+.card-heading{
+    position: relative;
+    bottom: 1.2rem;
 }

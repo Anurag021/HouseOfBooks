@@ -3,7 +3,6 @@
 }
 .header-links{
     margin-left: 25rem;
-    display: flex;
 }
 .search-bar{
     position: relative;
@@ -16,5 +15,5 @@
     width: 15rem ;
  }
  .search-bar i{
-     padding: 0.5rem;
+     padding: 8px;
  }
