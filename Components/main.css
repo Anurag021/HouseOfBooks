@@ -1,0 +1,9 @@
+@import url(/Components/category.css);
+@import url(/Components/footer.css);
+@import url(/Components/landingPage.css);
+@import url(/Components/nav.css);
+@import url(/Components/productListing.css);
+
+*{
+   margin:0; 
+}
