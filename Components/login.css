@@ -1,14 +1,15 @@
 .login-container{
     background-color: var(--color-primary);
     width: auto;
-    height: 35rem;
+    height: 30rem;
 }
 .input-form{
-    width: 30rem;
+    width: 27rem;
     border-radius: 1rem;
     height: 30rem;
     align-self: center;
     margin-top: 2rem;
+    margin-bottom: 1rem;
     border-radius: 1rem;
     color: var(--color-primary-dark);
     background-image: url(/Assests/login-bg.png);
