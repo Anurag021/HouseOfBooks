@@ -1,0 +1,26 @@
+.login-container{
+    background-color: var(--color-primary);
+    width: auto;
+    height: 30rem;
+}
+.input-form{
+    width: 30rem;
+    border-radius: 1rem;
+    height: 25rem;
+    align-self: center;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    color: var(--color-primary-dark);
+    background-image: url(/Assests/login-bg.png);
+}
+.input-form label, input{
+    font-size: large;
+}
+.input-form .checkbox-input-form{
+    width: auto;
+}
+.login-btn, .sign-up-btn{
+    font-weight: bold;
+    color: var(--color-primary);
+    text-decoration: none;
+}
