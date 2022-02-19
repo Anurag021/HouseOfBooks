@@ -41,21 +41,24 @@
         </div>
     </header>
 
-   
-    <!-- Main content for login page -->
+    <!-- login form -->
     <div class="login-container flex-column"> 
         <form action="#" class="input-form flex-column">
             <h1>Login Page</h1>
             <label for="input-form-user-name">UserName:</label>
             <input type="text" class="input-form-user-name">
             <label for="form-password">Password:</label>
-            <input type="text" class="form-password">
+            <div>
+                <input type="password" class="form-password">
+                <i class="fa-solid fa-eye password-check"></i>
+            </div>
+            
             <div>
                 <input type="checkbox" class="checkbox-input-form">
                 <label for="input-form-checkbox">Keep me signed in</label>
             </div>
             <button class="input-form-submit">Login</button>
-            <p>Forget your password</p>
+            <a href="#"><p>Forget your password</p></a>
             <p>Didn't have an account <a href="/Authentication/signup.html" class="sign-up-btn">SIGN-UP</a></p>
          </form>
     </div>
@@ -86,6 +89,6 @@
             </ul>
         </div>
     </footer>
-    
+<script src="/app.js"></script>
 </body>
 </html>
