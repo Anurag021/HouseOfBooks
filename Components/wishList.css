@@ -1,0 +1,27 @@
+.wish-list-container{
+    margin-left: 6rem;
+    /* display: flex;
+    flex-direction: row; */
+    flex-wrap: wrap;
+    width: 70rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.wishlist-label{
+    color: var(--color-error);
+    position: relative;
+    text-align: center;
+    right: 6rem;
+    bottom: 9rem;
+    font-size: 1.5rem;
+}
+.whishlist-btn{
+    margin: 2px;
+    border-radius: 10px;
+}
+.vertical-card-button > .whishlist-btn{
+    padding: 3px;
+}
+.vertical-card-button:hover > .whishlist-btn{
+    padding: 3px;
+}

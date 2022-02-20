@@ -5,6 +5,8 @@
 @import url(/Components/filter.css);
 @import url(/Components/product-listing.css);
 @import url(/Components/login.css);
+@import url(/Components/cart.css);
+@import url(/Components/wishList.css);
 *{
    margin:0; 
 }
