@@ -1,5 +1,5 @@
-var passwordEyeBtn = document.querySelector('.password-check')
-var passwordForm = document.querySelector('.input-password')
+const passwordEyeBtn = document.querySelector('#password-check')
+const passwordForm = document.querySelector('#input-password')
 
 passwordEyeBtn.addEventListener('click', () => {
     const type = passwordForm.getAttribute('type') === 'password' ? 'text' : 'password';

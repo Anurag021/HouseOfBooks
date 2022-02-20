@@ -1,15 +1,14 @@
 .login-container{
     background-color: var(--color-primary);
     width: auto;
-    height: 30rem;
+    height: auto;
 }
 .input-form{
     width: 27rem;
     border-radius: 1rem;
-    height: 30rem;
+    height: auto;
     align-self: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin: 2rem 0 4rem 0;
     border-radius: 1rem;
     color: var(--color-primary-dark);
     background-image: url(/Assests/login-bg.png);
@@ -21,11 +20,16 @@
     width: auto;
 }
 .login-btn, .sign-up-btn{
-    font-weight: bold;
+    font-weight: 600;
     color: var(--color-primary);
     text-decoration: none;
 }
-.password-check{
+/* .password-check{
+    position: relative;
+    right: 2rem;
+    cursor: pointer;
+} */
+.fa-eye{
     position: relative;
     right: 2rem;
     cursor: pointer;
