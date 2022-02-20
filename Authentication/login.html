@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://enigma-ui.netlify.app/components/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="/Components/main.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <!-- Component Header -->
+    <header class="header-container flex-row">
+        <a href="index.html"><h3>House Of Books 📚</h3></a>
+        <div class="search-bar">
+            <input placeholder="search for books"> 
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header-links flex-row">
+            <a href="index.html">
+                <span class="icons-header flex-column">
+                    <i class="fa-solid fa-house"></i>Home
+                </span>
+            </a>
+            <a href="#">
+                <span class="icons-header flex-column">
+                    <i class="fa-solid fa-user"></i>Logout
+                </span>
+            </a>
+            <a href="#">
+                <span class="icons-header flex-column">
+                    <i class="fa-solid fa-cart-shopping"></i>Cart
+                </span>
+            </a>
+            <a href="#">
+                <span class="icons-header flex-column">
+                    <i class="fa-solid fa-heart"></i>Wishlist
+                </span>
+            </a>
+        </div>
+    </header>
+
+    <!-- login form -->
+    <div class="login-container flex-column"> 
+        <form action="#" class="input-form flex-column">
+            <h1>Login Page</h1>
+            <label for="input-form-user-name">UserName:</label>
+            <input type="text" class="input-form-user-name">
+            <label for="input-password">Password:</label>
+            <div>
+                <input type="password" id="input-password">
+                <i class="fa-solid fa-eye" id="password-check"></i>
+            </div>
+            <a href="/index.html"><p>Forget your password</p></a>
+            <div>
+                <input type="checkbox" class="checkbox-input-form">
+                <label for="input-form-checkbox">Keep me signed in</label>
+            </div>
+            <button class="input-form-submit">Login</button>
+            
+            <p>Didn't have an account <a href="/Authentication/signup.html" class="sign-up-btn">SIGN-UP</a></p>
+         </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="content-footer flex-row">
+        <div>
+            <ul class="footer-list">Categories
+                <li>BestSeller</li>
+                <li>New Arrival</li>
+                <li>Fiction</li>
+                <li>Non-Fiction</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="footer-list">Account
+                <li>My Account</li>
+                <li>WishList</li>
+                <li>Cart</li>
+                <li>Track Order</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="footer-about"><h3 class="title">House Of Books 📚</h3>
+                <li><h3>© 2022, All rights reserved</h3>
+                    <h3>Made with <i class="fa-solid fa-heart"></i> by Anurag</h3>
+                </li>
+            </ul>
+        </div>
+    </footer>
+<script src="/app.js"></script>
+</body>
+</html>
