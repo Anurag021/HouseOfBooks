@@ -9,9 +9,8 @@
     color: var(--color-error);
     position: relative;
     text-align: center;
-    right: 6rem;
-    bottom: 9rem;
-    font-size: 1.5rem;
+    left: 3rem;
+    font-size: 2rem;
 }
 .whishlist-btn{
     margin: 2px;
@@ -23,3 +22,10 @@
 .vertical-card-button:hover > .whishlist-btn{
     padding: 3px;
 }
+.card-close{
+    position: relative;
+    bottom: 20rem;
+    left: 13rem;
+    cursor: pointer;
+    width: 2rem;
+  }
