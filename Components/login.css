@@ -24,11 +24,7 @@
     color: var(--color-primary);
     text-decoration: none;
 }
-/* .password-check{
-    position: relative;
-    right: 2rem;
-    cursor: pointer;
-} */
+
 .fa-eye{
     position: relative;
     right: 2rem;
