@@ -1,0 +1,102 @@
+.cart-container{
+    margin: 1rem;
+}
+.cart-heading{
+    text-align: center;
+    margin-top: 0.5rem;
+    color: var(--color-primary);
+}
+.horizontal-cart-container{
+    width: 25rem;
+    height: 15rem;
+    margin-top: 1rem;
+    border: 1px solid var(--color-gray-600);
+}
+.horizontal-cart-container img{
+    width: 12.5rem;
+    height: 15rem;
+}
+.cart-remove{
+    background-color: var(--color-gray-100);
+    color: var(--color-primary);
+    border: 1px solid var(--color-gray-600);
+}
+.cart-remove:hover{
+    color: var(--color-gray-100);
+    background-color: var(--color-primary);
+}
+.cart-move:hover{
+    background-color: var(--color-gray-100);
+    color: var(--color-primary);
+    border: 1px solid var(--color-gray-600);
+}
+.horizontal-card-button{
+    padding: 3px;
+    border: 1px solid var(--color-gray-600);
+}
+.cart-quantity{
+    align-items: center;
+}
+.cart-option-inc, .cart-option-dec{
+    padding: 8px 6px;
+    background-color: var(--color-primary);
+    color: var(--color-gray-100);
+    border-radius: 10px;    
+    margin: 2px;
+}
+.cart-quantity-no{
+   padding: 2px;
+   width: 2rem;
+   height: 1.5rem;
+   border: 2px solid var(--color-primary);
+}
+.horizontal-card-content{
+    margin-top: 0.5rem;
+}
+.cart-quantity p{
+    font-weight: bolder;
+    color: var(--color-gray-400);
+}
+
+/* Cart Price Details */
+.cart-container{
+    justify-content: space-around;
+}
+.cart-details{
+    padding: 1rem;
+    margin: 1rem;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid var(--color-gray-600);
+    box-shadow: 5px 5px 5px var(--color-gray-600);
+}
+.cart-price{
+    border-top: 1px solid var(--color-gray-600);
+}
+.cart-total{
+    border-top: 1px solid var(--color-gray-600);
+    border-bottom: 1px solid var(--color-gray-600); 
+}   
+.cart-details > div{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.cart-details h3{
+    color: var(--color-gray-400);
+}
+.cart-btn{
+    background-color: var(--color-primary);
+    color:var(--color-gray-100);
+    width: 70%;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid var(--color-gray-600);
+    margin-top: 1rem;
+}
+.cart-details span{
+    color: var(--color-primary-dark);   
+    font-weight:600;
+    margin-right: 1.5rem;
+}

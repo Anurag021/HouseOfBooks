@@ -1,6 +1,8 @@
 .content-footer{
     background-color: var(--color-gray-200);
     justify-content: space-around;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 .footer-list{
     margin: 8px;
