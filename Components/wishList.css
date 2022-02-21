@@ -4,6 +4,7 @@
     width: 70rem;
     height: auto;
     margin-bottom: 1rem;
+    align-items: center;
 }
 .wishlist-label{
     color: var(--color-error);
@@ -16,9 +17,7 @@
     margin: 2px;
     border-radius: 10px;
 }
-.vertical-card-button > .whishlist-btn{
-    padding: 3px;
-}
+.vertical-card-button > .whishlist-btn,
 .vertical-card-button:hover > .whishlist-btn{
     padding: 3px;
 }
