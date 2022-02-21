@@ -3,6 +3,7 @@ House of books is an ecommerce website for books, here you can find various cate
 
 # Website
  Visit to this website to shop books from HouseOfBooks
+ house-of-books.netlify.app
 
 # Contains
 This website contains below pages
@@ -12,4 +13,9 @@ This website contains below pages
 - Sign Up page
 - Cart
 - Wishlist
+
+# Texh Stack Used 
+- HTML
+- CSS
+- JavaScript
 
