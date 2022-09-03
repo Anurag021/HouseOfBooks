@@ -23,13 +23,3 @@ for (let i = 0; i < optionNo.length; i++) {
             optionNo[i].value= Number(optionNo[i].value)-1
         }})
 }
-
-// Close card functionality
-const cardClose = document.querySelectorAll(".card-close")
-
-for (let i = 0; i < cardClose.length; i++) {
-    console.log('close click trigger');
-    cardClose[i].addEventListener('click', () => {
-        cardClose[i].parentElement.style.display = 'none';
-    })
-}

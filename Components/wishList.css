@@ -21,10 +21,4 @@
 .vertical-card-button:hover > .whishlist-btn{
     padding: 3px;
 }
-.card-close{
-    position: relative;
-    bottom: 20rem;
-    left: 13rem;
-    cursor: pointer;
-    width: 2rem;
-  }
+
